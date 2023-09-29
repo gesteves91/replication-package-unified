@@ -1,6 +1,8 @@
+![GitHub](https://img.shields.io/github/license/gesteves91/replication-package-unified%20)
+
 # Replication Package Unified
 
-SUMMARY
+## Summary
 -------
 
 This replication package describes the data transformation used in the unified dataset.
@@ -49,7 +51,7 @@ Next, we show the data preparation steps executed in the replication package.
 - [x] Correlation Analysis
 - [x] Variance Analysis
 
-### Requirements 
+### Requirements
 
 All the requirements to apply the data are available under the **requirements.txt**
 
