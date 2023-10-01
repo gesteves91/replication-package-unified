@@ -2,21 +2,21 @@
 
 # Replication Package Unified
 
-## Summary
+## Overview
 -------
 
-This replication package describes the data transformation used in the unified dataset.
+This replication package outlines the data transformation procedures employed for the unified dataset.
 
 ### Data
 
-All data is available under the [data](https://github.com/anonymous-replication/replication-package-unified/tree/main/data) folder. The list of data sources are presented below:
+All data is available under the [data](https://github.com/anonymous-replication/replication-package-unified/tree/main/data) folder. The list of data sources is as follows:
 
 - Unified-class.csv
 - unified-cleaned.csv
 - unified-processed.csv
 - unified-processed.csv
 
-Example:
+Example file paths:
 
 ```bash
 ./data/Unified-class.csv
@@ -27,23 +27,23 @@ Example:
 
 #### Features
 
-The complete list of features applied in the data is available [here](https://github.com/anonymous-replication/replication-package-unified/blob/main/features/features.md).
+The comprehensive list of data features applied in this dataset can be found [here](https://github.com/anonymous-replication/replication-package-unified/blob/main/features/features.md).
 
 ### Data Preparation
 
-Next, we show the data preparation steps executed in the replication package.
+The replication package includes the following data preparation steps:
 
 #### Data Cleaning
 
-- [x] Remove duplicate entries
-- [x] Missing values
-- [x] Non-numeric data
+- [x] Removal of duplicate entries
+- [x] Handling of missing values
+- [x] Conversion of non-numeric data to numeric
 
 #### Data Exploration
 
-- [x] Normalization (Standard Scaler)
-- [x] Balancing (SMOTE)
-- [x] Encoding (One-Hot)
+- [x] Normalization using Standard Scaler
+- [x] Balancing via SMOTE
+- [x] Encoding with One-Hot
 
 #### Feature Engineering
 
@@ -53,19 +53,18 @@ Next, we show the data preparation steps executed in the replication package.
 
 ### Requirements
 
-All the requirements to apply the data are available under the **requirements.txt**
-
-We recommend using Python 3 Virtual Environment
+To replicate these data transformations, please ensure you have the necessary dependencies installed. All requirements can be found in the **requirements.txt** file. We recommend using Python 3 Virtual Environment:
 
 ```
 pip3 install -r requirements.txt
 ```
+
 ### Interpretability
 
-Execute the main notebook stored in the **notebook** folder.
+To gain insights and interpret the dataset, execute the primary notebook located in the notebooks directory.
 
-Example:
+Example notebook path:
 
 ```bash
-./notebooks/shap.ipynb
+./notebooks/02-shap.ipynb
 ```
